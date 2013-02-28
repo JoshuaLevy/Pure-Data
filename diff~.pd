@@ -1,0 +1,17 @@
+#N canvas 753 533 450 300 10;
+#X obj 111 -93 inlet~;
+#X obj 195 -47 inlet~;
+#X obj 111 -46 env~ 1024;
+#X obj 127 7 env~ 1024;
+#X floatatom 111 -18 5 0 0 0 - - -;
+#X floatatom 127 34 5 0 0 0 - - -;
+#X obj 112 82 -;
+#X floatatom 103 121 5 0 0 1 dB - -;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X connect 3 0 5 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 1;
+#X connect 6 0 7 0;
+#X coords 0 -1 1 1 60 40 1 100 100;
